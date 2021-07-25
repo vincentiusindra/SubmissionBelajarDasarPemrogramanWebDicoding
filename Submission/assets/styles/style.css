@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #e0f7f8;
+  font-family: "Concert One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+  text-shadow:2px 2px black;
+}
+
+footer {
+  padding: 20px;
+  color: lightslategray;
+  background-color: #ccf2f4;
+  text-align: center;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+.card {
+  background: #ebf7f8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+}
+nav {
+  background: #ccf2f4;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  z-index: 9;
+}
+
+.jumbotron{
+  background: #b4f1f5;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #2596be;
+}
+
+.logo-image{
+  max-height: 150px;
+  margin-top: -30px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 10px;
+}
+
+nav li a {
+  transition: all 0.3s ease 0s;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #2596be;
+}
+
+a:visited {
+  color: #2596be;
+}
+
+a:hover {
+  transition: all 0.3s ease 0s;
+  background-color: white;
+  border-radius: 5px;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 10px;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.foto-diri {
+  max-height: 200px;
+}
+
+.slideshow-container{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-slide{
+  display: flex;
+  height: 300px;
+}
+
+.slideshow-slide image{
+  padding: 20px;
+}
+
+#prevBtn{
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#nextBtn{
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+.slideshow-slide2{
+  display: flex;
+  height: 300px;
+}
+
+.slideshow-slide2 image{
+  padding: 20px;
+}
+
+#prevBtn2{
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+#nextBtn2{
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+  #content {
+    width: 100%;
+    padding: 0;
+  }
+}
